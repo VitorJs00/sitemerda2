@@ -1,0 +1,35 @@
+body{
+    background: brown;
+}
+.meio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 900px;
+    width: 900px;
+    margin-top: 100px;
+}
+.title{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+}
+
+.sim{
+    background: green;
+    padding: 45px;
+    border-radius: 17px;
+    border: 10px  black;
+    
+}
+.nao{
+    background: rgb(255, 0, 0);
+    padding: 45px;
+    border-radius: 17px;
+    border: 10px  black;
+}
